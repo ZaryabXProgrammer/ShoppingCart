@@ -8,7 +8,7 @@ import './Shop.css'
 export default function Shop() {
     return (
         <div className='shop'>
-            <h1 className='shoptitle'>ZARYAB'S SHOP</h1>
+            <h1 className='shoptitle'>DRAGO'S X GADGETS</h1>
 
             <div className="products">
                 {PRODUCTS.map((product)=>(<Product data={product}/>))}
